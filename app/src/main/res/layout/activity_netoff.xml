@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayoutid"
+    android:orientation="vertical"
+    tools:context=".Netoff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fear Allah"
+        android:textSize="20dp"
+        android:paddingLeft="100dp"
+        android:textStyle="bold"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:paddingLeft="50dp"
+        android:id="@+id/textview2"
+        android:textStyle="bold"
+        android:text="change hoise?"
+        />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+
+    </WebView>
+    <TextView
+        android:paddingLeft="100dp"
+
+        android:text="00:00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewstopmy"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button1stopwatchmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginLeft="10dp"
+
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/button2stopwatchmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_alignBottom="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/button3stopwatchmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/button3stopwatch"
+            android:layout_marginLeft="10dp"
+            android:text="Reset" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
